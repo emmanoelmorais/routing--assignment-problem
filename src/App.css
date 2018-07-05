@@ -1,0 +1,21 @@
+.App ul{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+.App ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.App ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.App ul li a:hover,
+.App ul li a:active,
+.App ul li a.active{
+    color:#fa923f;
+}
